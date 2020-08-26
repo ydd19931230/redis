@@ -81,15 +81,15 @@ System.out.println(jedis.ping());//返回pong 表示测试成功
 
 > 首先找到autoconfigure.jar中的spring.factories
 
-![](.\images\1.png )
+![](./images/1.png)
 
 > 打开之后搜索redis，可以看到是哪个类自动配置了redis
 
-![image-20200826164403602](.\images\2.png)
+![](./images/2.png)
 
 > 打开类之后寻找springboot使用的哪个配置类来进行配置，点进配置类后就可以看到默认的属性配置和都有哪些可以配置
 
-![image-20200826164622747](.\images\3.png)
+![](./images/3.png)
 
 ### 编码测试
 
@@ -274,7 +274,7 @@ public class RedisConfig {
 
 RDB的流程示意图
 
-![image-20200826204549357](.\images\4.png)
+![](./images/4.png)
 
 > RDB的触发机制
 
@@ -305,7 +305,7 @@ RDB的流程示意图
 
 AOF流程示意图
 
-![](.\images\5.png)
+![](./images/5.png)
 
 > AOF的其他配置
 
